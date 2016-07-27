@@ -1,2 +1,2 @@
 # vscode-ginkgo-snippets
-ginkgo bdd framework's snippets for Visual Studio Code (vscode)
+ginkgo bdd framework's code snippets for Visual Studio Code (vscode).

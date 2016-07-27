@@ -1,0 +1,51 @@
+{
+  "BeforeEach": {
+    "prefix": "BeforeEach",
+    "body": [
+      "BeforeEach(func(){",
+      "   $1",
+      "})"
+    ],
+    "description": "Code snippet for BeforeEach block"
+  },
+
+  "AfterEach": {
+    "prefix": "BeforeEach",
+    "body": [
+      "AfterEach(func(){",
+      "   $1",
+      "})"
+    ],
+    "description": "Code snippet for AfterEach block"
+  },
+
+   "Describe": {
+    "prefix": "Describe",
+    "body": [
+      "Describe(\"$1\", func() {",
+      "   $2",
+      "})"
+    ],
+    "description": "Code snippet for Describe block"
+  },
+
+  "Context": {
+    "prefix": "Context",
+    "body": [
+      "Context(\"$1\", func() {",
+      "   $2",
+      "})"
+    ],
+    "description": "Code snippet for Context block"
+  },
+
+  "It": {
+    "prefix": "It",
+    "body": [
+      "It(\"$1\", func() {",
+      "   $2",
+      "})"
+    ],
+    "description": "Code snippet for It block"
+  }
+}
