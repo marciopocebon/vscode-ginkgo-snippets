@@ -10,7 +10,7 @@
   },
 
   "AfterEach": {
-    "prefix": "BeforeEach",
+    "prefix": "AfterEach",
     "body": [
       "AfterEach(func(){",
       "   $1",
