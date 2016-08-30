@@ -3,23 +3,43 @@
     "prefix": "BeforeEach",
     "body": [
       "BeforeEach(func(){",
-      "   $1",
+      "\t\t$1",
       "})"
     ],
     "description": "Code snippet for BeforeEach block"
+  },
+
+  "BeforeSuite": {
+    "prefix": "BeforeSuite",
+    "body": [
+      "BeforeSuite(func(){",
+      "\t\t$1",
+      "})"
+    ],
+    "description": "Code snippet for BeforeSuite block"
   },
 
   "AfterEach": {
     "prefix": "AfterEach",
     "body": [
       "AfterEach(func(){",
-      "   $1",
+      "\t\t$1",
       "})"
     ],
     "description": "Code snippet for AfterEach block"
   },
 
-   "Describe": {
+  "AfterSuite": {
+    "prefix": "AfterSuite",
+    "body": [
+      "AfterSuite(func(){",
+      "\t\t$1",
+      "})"
+    ],
+    "description": "Code snippet for AfterSuite block"
+  },
+
+  "Describe": {
     "prefix": "Describe",
     "body": [
       "Describe(\"$1\", func() {",
